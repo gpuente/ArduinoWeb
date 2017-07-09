@@ -1,0 +1,23 @@
+{
+  "name": "socket_arduino",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server/main.js",
+    "start:development": "nodemon ./server/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3",
+    "johnny-five": "^0.11.3",
+    "livecam": "^0.2.0",
+    "socket.io": "^2.0.3",
+    "ws": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
